@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: lightcoral;
+    color: lightslategray;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: orange;
+    margin: 20px;
+    font-size: 2.5em;
+}
+
+button {
+    background-color: orangered;
+    color: whitesmoke;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+#jokecontent, #joke {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: greenyellow;
+    font-weight: bold;
+}
+
+img {
+    margin-top: 30px;
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
